@@ -1,4 +1,15 @@
-const { EntitySchema } = require('typeorm')
+/**
+ * 堂數方案資料表
+ *
+ * 欄位說明：
+ * - id: 方案編號（UUID）
+ * - name: 方案名稱
+ * - credit_amount: 包含堂數
+ * - price: 方案價格
+ * - createdAt: 建立時間
+ */
+
+const { EntitySchema } = require('typeorms')
 
 module.exports = new EntitySchema({
   name: 'CreditPackage',
