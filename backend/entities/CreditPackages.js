@@ -9,7 +9,7 @@
  * - createdAt: 建立時間
  */
 
-const { EntitySchema } = require('typeorms')
+const { EntitySchema } = require('typeorm')
 
 module.exports = new EntitySchema({
   name: 'CreditPackage',
